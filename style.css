@@ -105,7 +105,6 @@ header{
     position: fixed;
     top: 7.5%;
     right: 0;
-    height: 54vh;
     width: 200px;
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.2);
@@ -290,9 +289,6 @@ header{
     text-decoration: underline;
 }
 @media only screen and (max-width: 499px){
-    *{
-        box-sizing:content-box;
-    }
     body{
         margin: 5%;
     }
@@ -331,22 +327,8 @@ header{
         transform: translateX(0);
         transition: 0.5s ease-in-out;
     }
-    .wrapper{
-        width: 20em;
-    }
-    .input-box{
-        width: 90%;
-        margin: 1em;
-    }
-    .btn{
-        margin: 1em;
-        width: 90%;
-    }
   }
 @media only screen and (min-width: 500px) and (max-width: 997px){
-    *{
-        box-sizing:content-box;
-    }
     body{
         margin: 5%;
     }
@@ -381,16 +363,5 @@ header{
     .sidebar.show{
         transform: translateX(0);
         transition: 0.5s ease-in-out;
-    }
-    .wrapper{
-        width: 20em;
-    }
-    .input-box{
-        width: 90%;
-        margin: 1em;
-    }
-    .btn{
-        margin: 1em;
-        width: 90%;
     }
   }
